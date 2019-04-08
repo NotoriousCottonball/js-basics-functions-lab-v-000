@@ -4,8 +4,8 @@ function distanceFromHqInBlocks (numberedStreet) {
   if  (numberedStreet > 42) {  
     return numberedStreet - 42 
   } 
-  if (blockNumber < 42){  
-    return 42 - blockNumber }
+  if (numberedStreet < 42){  
+    return 42 - numberedStreet }
 }
 
  function distanceFromHqInFeet (blockNumber){
