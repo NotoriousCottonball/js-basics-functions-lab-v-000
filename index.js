@@ -14,7 +14,7 @@ function distanceFromHqInBlocks (numberedStreet) {
 
 function distanceTravelledInFeet (startBlock, endBlock){
     if (startBlock < endBlock) {
-    return (endBlock - start) * 264;
+    return (endBlock - endBlock) * 264;
     } else {
     return (start - destination) * 264;
     }
