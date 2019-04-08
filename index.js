@@ -8,3 +8,6 @@ function distanceFromHqInBlocks (streetNumber) {
     return 42 - streetNumber }
 }
 
+
+
+
