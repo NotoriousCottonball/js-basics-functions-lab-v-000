@@ -8,8 +8,8 @@ function distanceFromHqInBlocks (numberedStreet) {
     return 42 - numberedStreet }
 }
 
- function distanceFromHqInFeet (blockNumber){
-   return distanceFromHqInBlocks(blockNumber) * 264;
+ function distanceFromHqInFeet (numberedStreet){
+   return distanceFromHqInBlocks(numberedStreet) * 264;
 }
 
 
